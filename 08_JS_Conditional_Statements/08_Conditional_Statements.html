@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+     <style type="text/css">
+        body{
+            margin: 0;
+        }
+        h2
+        {
+            background-color: lightgreen;
+            text-align: center;
+            padding: 5px;
+        }
+        div
+        {
+            background-color: seagreen;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+	<h2>Js if conditional Example</h2>
+<div>
+    <h1 id="display"></h1>
+
+</body>
+
+<script>
+
+
+
+    // Switch Statement Example
+    var today = new Date().getDay();
+    var actualDay = "";
+    switch(today){
+    	case 0:
+    		actualDay = "sunday";
+    		break;
+    	case 1:
+    		actualDay = "monday";
+    		break;
+    	case 2:
+    		actualDay = "tuesday";
+    		break;
+    	case 3:
+    		actualDay = "wensday";
+    		break;
+    	case 4:
+    		actualDay = "thursday";
+    		break;
+    	case 5:
+    		actualDay = "friday";
+    		break;
+    	case 6:
+    		actualDay = "saturday";
+    		break;
+
+    }
+    output = " today is : " + actualDay;
+    console.log(output);
+    document.getElementById('display').innerHTML = output;
+
+//----------------------------//
+
+
+
+</script>
+</html>

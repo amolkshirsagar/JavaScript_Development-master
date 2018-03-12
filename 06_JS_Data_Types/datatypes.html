@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS DataTypes</title>
+    <style>
+    	h2
+    	{
+    		background-color: lightgreen;
+    		text-align: center;
+    		padding: 5px;
+    	}
+    	div
+    	{
+    		background-color: seagreen;
+    		padding: 10px;
+            text-align: center;
+            color: white;
+    	}
+    </style>
+
+</head>
+
+<body>
+
+<h2>JS DATATYPES EXAMPLES</h2>
+<div>
+	<h1 id="display"></h1>
+</div>
+</body>
+
+<script>
+
+    // number example
+    var num1 = 40;
+    console.log(num1);
+    var output = "number : "+ num1;
+    document.getElementById('display').innerHTML = output;
+
+
+    // String Examples
+    var myName = "Amol";
+    console.log(myName);
+    output = "string : " + myName;
+    document.getElementById('display').innerHTML = output;
+
+
+    // boolean Examples
+    var isJSEasy =  true;
+    console.log(isJSEasy);
+    output = "boolean : " + isJSEasy;
+    document.getEleme ntById('display').innerHTML = output;
+
+
+ 
+     // reassignment example of variables
+     var a = 10; //number
+     a = "Amol"; //string
+     a = true; //boolean
+ 
+ 
+ 
+     // Undefined Example
+     var something;
+     console.log(something);
+     output = " " + something;
+     document.getElementById('display').innerHTML = output;
+ 
+
+    // null example
+    var num2 = null;
+    console.log(num2);
+    output = " " + num2;
+    document.getElementById('display').innerHTML = output;
+
+
+</script>
+
+</html>
